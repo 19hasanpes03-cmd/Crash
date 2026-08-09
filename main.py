@@ -35,4 +35,4 @@ async def on_ready():
 async def panel(ctx):
     await ctx.send("Bot çalışıyor! Stok paneli yakında aktif olacak.")
 
-bot.run("MTUzNTk4NTIzNzQ1OTIxNDM4OA.GHHWNl.d-Ra2rvWo6bfD76TJwBJqyOUpyda5mu3w2m0bE")
+bot.run("MTUzNTk4NTIzNzQ1OTIxNDM4OA.GsRq0A.oUZbzLwAXm0JxkP8AFMiZ5Ma79CCjbNdydfXeU")
