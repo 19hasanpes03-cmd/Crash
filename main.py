@@ -29,10 +29,11 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'{bot.user} başarıyla aktif oldu!')
+    print(f'{bot.user} basariyla aktif oldu!')
 
 @bot.command()
 async def panel(ctx):
-    await ctx.send("Bot çalışıyor! Stok paneli yakında aktif olacak.")
+    await ctx.send("Bot calisiyor! Stok paneli yakinda aktif olacak.")
 
-bot.run("MTUzNTk4NTIzNzQ1OTIxNDM4OA.GsRq0A.oUZbzLwAXm0JxkP8AFMiZ5Ma79CCjbNdydfXeU")
+# Tokeni gizli kasadan okur, GitHub asla engelleyemez
+bot.run(os.environ.get("DISCORD_TOKEN"))
